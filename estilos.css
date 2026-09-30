@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "MiRoboto";
+    src: url("Start.otf") format("opentype");
+}
+@font-face {
+    font-family: "1";
+    src: url("Start\ Kick.otf") format("truetype");
+}
+@font-face {
+    font-family: "2";
+    src: url("Start\ Story\ \(1\).otf") format("truetype");
+}
+@font-face {
+    font-family: "3";
+    src: url("StartAgainDemoRegular.ttf") format("opentype");
+}
+@font-face {
+    font-family: "4";
+    src: url("StarTracks.ttf") format("truetype");
+}
+
+h2{
+    text-align: center;
+    font-size:100px;
+    color:#4b0010;
+    text-shadow: 0px 5px 0px #21000a;
+    font-family: "MiRoboto", sans-serif;
+}   
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none; 
+    width: 300px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    transition: 0.3s ease all;
+}
+
+a:nth-of-type(1) {
+    font-family: "MiRoboto", sans-serif;
+    background: #70001f;
+    color: #ffffff;
+    border: #32000e dotted 5px;
+    border-radius: 35px 5px 35px 5px;
+    box-shadow: 3px 4px 10px #3d0011;
+}
+
+a:nth-of-type(2) {
+    font-family: "1", sans-serif;
+    background: #35004d;         
+    color: #ffffff;                   
+    border: #65001f solid 4px;      
+    border-radius: 5px 30px 5px 30px;          
+    box-shadow: 3px 4px 12px #25002f; 
+}
+
+a:nth-of-type(3) {
+    font-family: "2", sans-serif;
+    background: #560019;
+    color: #ffffff;
+    border: #2b000d double 6px;
+    border-radius: 50px 5px 50px 5px;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.5);
+}
+
+a:nth-of-type(4) {
+    font-family: "3", sans-serif;
+    background: #800020;
+    color: white;
+    border: #35000f dashed 4px;
+    border-radius: 5px 30px 5px 30px;
+    box-shadow: 0px 5px 0px #3b000e;
+}
+
+a:nth-of-type(5) {
+    font-family: "4", sans-serif;
+    background: #28003d;
+    color: #ffffff;
+    border: #500016 solid 3px;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 5px 5px 0px #170022;
+}
+
+a:hover{
+    background: #001f3f;
+    color: #4d9cff;
+    border: #003b73 solid 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px #003b73;    
+    transform: scale(1.1);
+}
